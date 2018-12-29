@@ -12,11 +12,7 @@ Class EnvioEmail extends Connection{
 	//SMTPSecure TLS = 587 ou SSL = 465
 	public function enviar_email($host, $username, $password, $port, $from, $fromName, $address, $subject, $body, $secure='tls', $debug=FALSE){
 		
-		//require './vendor/phpmailer/phpmailer/PHPMailerAutoload.php';	
-		//include_once('./vendor/phpmailer/phpmailer/class.phpmailer.php');
-	    //include_once('./phpmailer/PHPMailerAutoload.php');
-	    
-	    $mail = new PHPMailer();        
+		$mail = new PHPMailer();        
 	    $mail->Timeout 		= 10;
 		// Define os dados do servidor e tipo de conexão
 	    // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
