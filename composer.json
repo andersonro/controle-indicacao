@@ -1,0 +1,12 @@
+{
+  "require":{
+    "slim/slim":"2.4.2",
+    "slim/views": "0.1.2",
+    "phpmailer/phpmailer":"5.2.22",
+    "firebase/php-jwt": "^5.0",
+    "guzzlehttp/guzzle": "^6.3",
+    "jhernandes/ipag-webservice-1.0-php":"dev-master",
+    "stavarengo/php-sigep": "dev-master",
+	"stavarengo/php-sigep-fpdf": "dev-master"
+  }
+}
