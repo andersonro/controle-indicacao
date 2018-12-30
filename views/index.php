@@ -14,9 +14,9 @@ if(isset($login)){
 	<div class="row login">
 		<div class="col-xs-1 col-sm-2 col-md-3	col-lg-3"></div>
 		<div class="col-xs-10 col-sm-8 col-md-6	col-lg-6">
-			
+
 			<div>
-			
+
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
 					<li role="presentation" class="<?=$login?'':'active'?>">
@@ -41,7 +41,7 @@ if(isset($login)){
 								<input type="text" id="nome" name="nome" class="form-control input-lg" placeholder="Nome Completo" required autofocus>
 								<input type="hidden" id="indicacao" name="indicacao" class="form-control input-lg" placeholder="" value="<?=(isset($indicador)?$indicador:'')?>">
 							</div>
-			
+
 							<div class="form-group">
 								<input type="email" id="email" name="email" class="form-control input-lg" placeholder="E-mail" required>
 							</div>
@@ -50,7 +50,7 @@ if(isset($login)){
 							</button>
 						</form>
 					</div>
-					
+
 					<div role="tabpanel" class="tab-pane <?=$login?'active':''?>" id="login">
 						<form class="form-signin" action="/login" method="post" enctype="multipart/form-data">
 							<h2 class="form-signin-heading text-center">Acesse o sistema</h2>
@@ -67,11 +67,11 @@ if(isset($login)){
 							</button>
 						</form>
 					</div>
-					
+
 				</div>
 
 			</div>
-						
+
 		</div>
 		<div class="col-xs-1 col-sm-2 col-md-3	col-lg-3"></div>
 	</div>
